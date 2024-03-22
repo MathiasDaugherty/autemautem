@@ -1,0 +1,54 @@
+{
+  "name": "autemautem",
+  "version": "1.0.0",
+  "description": "eth common of js",
+  "keywords": [
+    "quia",
+    "incidunt",
+    "enim",
+    "ether"
+  ],
+  "homepage": "https://github.com/MathiasDaugherty/autemautem.git",
+  "bugs": {
+    "url": "https://github.com/MathiasDaugherty/autemautem.git/issues"
+  },
+  "license": "MIT",
+  "author": "AdeleWeimann",
+  "types": "./types/index.d.ts",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MathiasDaugherty/autemautem.git"
+  },
+  "dependencies": {
+    "@parity/api": "^5.1.13",
+    "@pefish/js-node-assist": "^2.0.4",
+    "@pefish/js-util-time": "^0.1.0",
+    "bip39": "^3.0.2",
+    "bitcore-lib": "^8.3.4",
+    "bn.js": "^4.11.8",
+    "eth-crypto": "^1.5.0",
+    "ethereumjs-common": "1.5.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^6.2.0",
+    "ethers": "^5.1.0",
+    "hdkey": "^1.1.1",
+    "randombytes": "^2.1.0",
+    "scryptsy": "^2.1.0",
+    "secp256k1": "^4.0.2",
+    "uuid": "^3.4.0",
+    "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.7",
+    "mocha": "^8.3.2",
+    "solc": "0.6.12",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
